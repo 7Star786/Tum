@@ -103,16 +103,16 @@ print  """\033[1;91m__________________________________________________________
 \033[1;96mFacebook  \033[1;93m: \033[1;92m -hacker786
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/7Star786/Nonstop
 \033[1;91m_____________________________________________________________________
-print " \x1b[1;93m============================================================="
+print " \x1b[1;93mSearching please wait________________________________________,"
 
 CorrectUsername = "7star"
 CorrectPassword = "7star"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;90mUsername Of Tool \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;90mPassword Of Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
